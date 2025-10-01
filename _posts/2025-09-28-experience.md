@@ -4,6 +4,7 @@ title: "Experience"
 author: "Shae Trainor"
 categories: info
 tags: [Experience]
+image: 1741540483428.jpg
 ---
 
 ## Arcbound
