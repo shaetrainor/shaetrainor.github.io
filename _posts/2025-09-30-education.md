@@ -4,6 +4,7 @@ title: "Education"
 author: "Shae Trainor"
 categories: info
 tags: [Education]
+image: education.jpg
 ---
 
 ## Master of Science in Business Analytics
