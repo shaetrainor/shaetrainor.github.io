@@ -4,7 +4,7 @@ title: "Interests"
 author: "Shae Trainor"
 categories: info
 tags: [Culture, Science, Growth]
-image: sanfran.jpg
+image: bailey-zindel-NRQV-hBF10M-unsplash-1524x948.jpg
 ---
 
 # Interests
