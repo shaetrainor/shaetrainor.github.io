@@ -4,7 +4,7 @@ title: "Interests"
 author: "Shae Trainor"
 categories: info
 tags: [Reading, Learning]
-image: reading.jpg
+image: NRatUnionSt.jpg
 ---
 
 ## What I'm Currently Reading
