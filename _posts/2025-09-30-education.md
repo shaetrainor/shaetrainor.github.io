@@ -4,7 +4,7 @@ title: "Education"
 author: "Shae Trainor"
 categories: info
 tags: [Education]
-image: NortheasternUniversity-1-of-1.jpg
+image: clemson.jpg
 ---
 
 ## Master of Science in Business Analytics
