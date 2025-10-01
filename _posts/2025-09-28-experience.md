@@ -4,7 +4,7 @@ title: "Experience"
 author: "Shae Trainor"
 categories: info
 tags: [Experience]
-image: 1741540483428.jpg
+image: WhatsApp Image 2025-10-01 at 15.41.27_e8bf07d1.jpg
 ---
 
 ## Arcbound
