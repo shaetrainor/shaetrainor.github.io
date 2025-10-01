@@ -4,7 +4,7 @@ title: "Education"
 author: "Shae Trainor"
 categories: info
 tags: [Education]
-image: clemson.jpg
+image: PublicGarden1400x933.webp
 ---
 
 ## Master of Science in Business Analytics
