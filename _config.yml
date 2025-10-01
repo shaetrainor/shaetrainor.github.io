@@ -1,25 +1,24 @@
 # Site Build Settings
-
 # jekyll-paginate configuration
 paginate:            5
-
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title: Shae Trainor
-description: Data Analytics Specialist | Business Intelligence
-url: "https://shaetrainor.com"  # your custom domain
-baseurl: ""
+# Site Information
+title:               "Shae Trainor"
+description:         "Data Analytics Specialist | Business Intelligence"
+url:                 "https://shaetrainor.com"
+baseurl:             ""
 
+# Author Information
 author:
-  name: Shae Trainor
-  email: shaetrainor@gmail.com
-  github: shaetrainor
-  linkedin: shae-trainor
+  name:              "Shae Trainor"
+  email:             "shaetrainor@gmail.com"
+  github:            shaetrainor
+  linkedin:          shae-trainor
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
