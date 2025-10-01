@@ -9,7 +9,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Site Information
 title:               "Shae Trainor"
-description:         "Data Analytics Specialist | Business Intelligence"
+description:         ""
 url:                 "https://shaetrainor.com"
 baseurl:             ""
 
@@ -17,8 +17,7 @@ baseurl:             ""
 author:
   name:              "Shae Trainor"
   email:             "shaetrainor@gmail.com"
-  github:            shaetrainor
-  linkedin:          shae-trainor
+  linkedin:          "shae-trainor"
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
