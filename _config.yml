@@ -1,0 +1,35 @@
+title: "Shae Trainor"
+description: "Data Analyst, automation and BI with Python, SQL, APIs, Power BI."
+url: "https://shaetrainor.com"
+baseurl: ""
+author: "Shae Trainor"
+email: "shaetrainor@gmail.com"
+
+# Use Millennial Jekyll theme from LeNPaul as a remote theme
+remote_theme: "LeNPaul/Millennial"
+
+# Standard Jekyll plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Navigation links
+navbar-links:
+  Projects: "/pages/projects"
+  Reading: "/pages/reading"
+  About: "/pages/about"
+  Contact: "/pages/contact"
+
+# Social links
+social-network-links:
+  linkedin: "shae-trainor"
+  github: "shaetrainor"
+
+# Markdown and permalink settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# Google Analytics (optional)
+google_analytics: ""
