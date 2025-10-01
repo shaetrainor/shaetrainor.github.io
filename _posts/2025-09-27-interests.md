@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Reading List"
+title: "Interests"
 author: "Shae Trainor"
 categories: info
 tags: [Reading, Learning]
