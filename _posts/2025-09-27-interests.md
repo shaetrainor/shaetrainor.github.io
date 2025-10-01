@@ -4,7 +4,7 @@ title: "Interests"
 author: "Shae Trainor"
 categories: info
 tags: [Life, Curiosity, Growth]
-image: bailey-zindel-NRQV-hBF10M-unsplash-1524x948.jpg
+image: scrock.jpg
 ---
 
 # Interests
