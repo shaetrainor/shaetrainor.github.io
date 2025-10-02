@@ -7,8 +7,8 @@ tags: [Experience]
 image: exp.jpg
 ---
 
-## Arcbound
-**Data Analyst** | Part-time  
+### Arcbound
+**Data Analyst | Part-time**  
 **July 2025 - Present**  
 Washington, DC (Remote)
 
@@ -22,16 +22,13 @@ Leading automation initiatives that transform how Arcbound delivers analytics an
 
 **Skills:** Data Automation, Business Intelligence, Machine Learning, Data Scraping, Digital Marketing, Python, Power BI
 
----
-
-**Data Analytics Intern** | Internship  
+### Arcbound
+**Data Analytics Intern | Internship**  
 **October 2024 - July 2025**  
 Washington, DC (Remote)
 
----
-
-## Cornell Dubilier Electronics
-**Accounting Systems Intern** | Internship  
+### Cornell Dubilier Electronics
+**Accounting Systems Intern | Internship**  
 **May 2023 - August 2023**  
 New Bedford, Massachusetts
 
@@ -45,10 +42,8 @@ Automated financial workflows and delivered data insights to support accounting 
 
 **Skills:** Microsoft Excel, Power Automate, Data Mining, Critical Thinking, Business Analysis, Power BI
 
----
-
-## Falling Creek Camp
-**Summer Camp Counselor** | Seasonal  
+### Falling Creek Camp
+**Summer Camp Counselor | Seasonal**  
 **May 2022 - August 2022**  
 Tuxedo, North Carolina
 
@@ -57,10 +52,8 @@ Tuxedo, North Carolina
 
 **Skills:** Outdoor Education
 
----
-
-## Hingham Institution for Savings
-**Payroll Assistant** | Part-time  
+### Hingham Institution for Savings
+**Payroll Assistant | Part-time**  
 **February 2020 - August 2020**  
 Hingham, Massachusetts
 
