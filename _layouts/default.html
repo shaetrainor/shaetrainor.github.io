@@ -23,23 +23,47 @@
         canvas.height = window.innerHeight;
       });
 
+      // Mouse tracking for accent boost
+      let lastMouseTime = 0;
+      let lastMouseX = 0;
+      let lastMouseY = 0;
+      let motionBoost = 0;
+
+      window.addEventListener('mousemove', (e) => {
+        const now = performance.now();
+        const dx = e.clientX - lastMouseX;
+        const dy = e.clientY - lastMouseY;
+        const dt = now - lastMouseTime || 16;
+        const vel = Math.min(1, Math.hypot(dx, dy) / dt * 0.6);
+        motionBoost = Math.max(vel, motionBoost * 0.92);
+        lastMouseTime = now;
+        lastMouseX = e.clientX;
+        lastMouseY = e.clientY;
+      });
+
       let particles = [];
       for(let i = 0; i < 60; i++) {
         particles.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
           vx: (Math.random() - 0.5) * 0.3,
-          vy: (Math.random() - 0.5) * 0.3
+          vy: (Math.random() - 0.5) * 0.3,
+          r: Math.random() * 1.2 + 0.6
         });
       }
 
       function animate() {
-        ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.08)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         
-        ctx.strokeStyle = 'rgba(26, 26, 26, 0.15)';
-        ctx.lineWidth = 0.5;
-        ctx.fillStyle = 'rgba(26, 26, 26, 0.4)';
+        // Time-based hue shift (24 hour cycle)
+        const now = new Date();
+        const seconds = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
+        const dayHue = (seconds / 86400) * 360;
+        
+        // Base hue + motion accent
+        const hue = 210 * 0.6 + dayHue * 0.4;
+        const sat = Math.min(6 + motionBoost * 45, 28);
         
         particles.forEach((p, i) => {
           p.x += p.vx;
@@ -47,25 +71,30 @@
           if(p.x < 0 || p.x > canvas.width) p.vx *= -1;
           if(p.y < 0 || p.y > canvas.height) p.vy *= -1;
           
+          // Draw nodes
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.07)';
           ctx.beginPath();
-          ctx.arc(p.x, p.y, 2, 0, Math.PI * 2);
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
           ctx.fill();
           
+          // Draw links
           particles.slice(i + 1).forEach(p2 => {
             const dx = p.x - p2.x;
             const dy = p.y - p2.y;
             const dist = Math.sqrt(dx*dx + dy*dy);
-            if(dist < 120) {
+            if(dist < 140) {
+              const t = 1 - dist / 140;
+              ctx.strokeStyle = `hsla(${hue}, ${sat}%, 90%, ${0.18 * t})`;
+              ctx.lineWidth = Math.max(0.6, 1.1 * t);
               ctx.beginPath();
               ctx.moveTo(p.x, p.y);
               ctx.lineTo(p2.x, p2.y);
-              ctx.globalAlpha = 1 - (dist / 120);
               ctx.stroke();
-              ctx.globalAlpha = 1;
             }
           });
         });
         
+        motionBoost *= 0.96;
         requestAnimationFrame(animate);
       }
       animate();
