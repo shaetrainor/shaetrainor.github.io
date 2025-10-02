@@ -8,6 +8,30 @@
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
+  
+  <style>
+    body { font-family: 'Cormorant Garamond', serif; }
+    .post-content h2, .post-content h3 {
+      background: #1a1a1a;
+      color: white;
+      padding: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+      border-radius: 10px;
+    }
+    .site-header {
+      min-height: 56px;
+      background: white;
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+    }
+    img { filter: grayscale(100%); }
+    img:hover { filter: grayscale(0%); }
+    .featured-post { filter: grayscale(100%); }
+    .featured-post:hover { filter: grayscale(0%); }
+  </style>
+  
   <link rel="icon" type="image/png" href="{{ site.github.url }}/favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
   <link rel="preload" href="{{ site.github.url }}/assets/css/main.css" as="style">
