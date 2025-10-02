@@ -40,13 +40,13 @@ img:hover,
   -webkit-filter: grayscale(0%) !important;
 }
 
-.post-preview,
-.post-link {
-  transition: filter 0.3s ease;
+.featured-post {
+  filter: grayscale(100%) !important;
+  -webkit-filter: grayscale(100%) !important;
+  transition: filter 0.3s ease !important;
 }
 
-.post-preview:hover,
-.post-link:hover {
+.featured-post:hover {
   filter: grayscale(0%) !important;
   -webkit-filter: grayscale(0%) !important;
 }
