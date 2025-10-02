@@ -40,6 +40,17 @@ img:hover,
   -webkit-filter: grayscale(0%) !important;
 }
 
+.post-preview,
+.post-link {
+  transition: filter 0.3s ease;
+}
+
+.post-preview:hover,
+.post-link:hover {
+  filter: grayscale(0%) !important;
+  -webkit-filter: grayscale(0%) !important;
+}
+
 img[src*="favicon"] {
   filter: none !important;
   -webkit-filter: none !important;
