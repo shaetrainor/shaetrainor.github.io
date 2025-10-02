@@ -7,8 +7,8 @@ tags: [Education]
 image: nu.png
 ---
 
-## Master of Science in Business Analytics
-**Northeastern University** | September 2024 - August 2025
+### Master of Science in Business Analytics
+**Northeastern University | September 2024 - August 2025**
 
 Focused on applying data science and analytics to solve complex business problems through quantitative methods, machine learning, and data-driven decision-making.
 
@@ -25,10 +25,8 @@ Focused on applying data science and analytics to solve complex business problem
 
 **Skills:** Python, R, SQL, Alteryx, Oracle SQL Developer, Business Analytics
 
----
-
-## Bachelor of Science in Management Information Systems
-**Clemson University** | 2020 - 2024
+### Bachelor of Science in Management Information Systems
+**Clemson University | 2020 - 2024**
 
 Combined business strategy with technical implementation, focusing on systems design, data analytics, and organizational technology.
 
@@ -40,9 +38,7 @@ Combined business strategy with technical implementation, focusing on systems de
 
 **Skills:** Tableau, Python, SQL, Financial Analysis, Business Analysis
 
----
-
-## Certifications
+### Certifications
 
 **Data Literacy Certification** - DataCamp (March 2025)
 
@@ -58,8 +54,6 @@ Combined business strategy with technical implementation, focusing on systems de
 - Accenture Data Analytics & Visualization Job Simulation (Forage)
 - PwC Power BI Job Simulation (Forage)
 
----
-
-## Honors & Awards
+### Honors & Awards
 
 **D'Amore-McKim Achievers Scholarship** - Northeastern University
