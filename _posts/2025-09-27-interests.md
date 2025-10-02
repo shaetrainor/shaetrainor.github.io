@@ -7,26 +7,20 @@ tags: [Life, Curiosity, Growth]
 image: scrock.jpg
 ---
 
-# Interests
+Outside of work, I'm into things that either make me think or get me outside, usually both.
 
-This page is about the things that keep me curious, balanced, and grounded. Some of them make me think, some of them get me outside, and most of them do both.
+### What I Follow
 
----
+I'm interested in how technology actually changes things. Not just new features or product launches, but the shifts that alter how entire industries work or how people solve problems. AI developments, infrastructure at scale, automation that actually matters. I like understanding what's being built and why it might stick.
 
-## What I Follow
-I like seeing how technology actually changes the world. Not just new apps or product launches, but the bigger shifts that change how people live and how industries work. AI, automation, and large-scale infrastructure are areas I keep an eye on because they shape the future in ways we’re only starting to understand.
+### What I Read
 
----
+I like articles that explain why things work the way they do. How cities grow, why certain business strategies succeed, what drives trends in sports or culture. I'm not looking for hot takes. I want the deep dive that connects ideas I wouldn't have linked on my own. The Atlantic, Stratechery, and random Substacks usually give me that.
 
-## What I Read
-I’m into articles that explain why things work the way they do. That could be how cities grow, why a strategy succeeds in business, or what drives trends in sports and culture. I like pieces that connect dots I wouldn’t have linked on my own.
+### What I Learn
 
----
+I take courses in Python, SQL, and analytics because they matter for what I do. But I also learn about urban geography and psychology just because they're interesting. To me, being good at your job and being an interesting person aren't the same thing. You need both.
 
-## What I Learn
-I take courses in Python, SQL, and analytics because they matter for what I do every day. I also dig into subjects like geography and psychology just because they interest me. Learning across different areas keeps me sharp and gives me new ways to see things.
+### What Keeps Me Grounded
 
----
-
-## What Keeps Me Grounded
-Boston sports are always in the background. I play golf, spend time by the ocean whenever I can, and go fly fishing when the chance comes up. Being outside helps me slow down, think clearly, and stay connected to what matters.
+Boston sports are a constant. I play golf when I can, spend time near the ocean as much as possible, and fly fish when the timing works out. Being outside isn't just a break from work. It's where I actually think clearly and remember what matters.
