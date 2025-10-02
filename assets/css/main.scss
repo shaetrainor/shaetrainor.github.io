@@ -29,6 +29,15 @@ img,
 div[style*="background-image"] {
   filter: grayscale(100%) !important;
   -webkit-filter: grayscale(100%) !important;
+  transition: filter 0.3s ease;
+}
+
+img:hover,
+.post-preview img:hover,
+.featured-image img:hover,
+.post-content img:hover {
+  filter: grayscale(0%) !important;
+  -webkit-filter: grayscale(0%) !important;
 }
 
 img[src*="favicon"] {
