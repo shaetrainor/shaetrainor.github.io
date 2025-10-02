@@ -15,34 +15,32 @@
       }
     </style>
     <script>
-      let minLoadTime = 2000;
       let startTime = Date.now();
       
-      function checkCSSLoaded() {
+      function checkAndHide() {
         const elapsed = Date.now() - startTime;
         const header = document.querySelector('.site-header');
-        const postContent = document.querySelector('.post-content');
         
-        if (elapsed < minLoadTime) {
-          setTimeout(checkCSSLoaded, 100);
-          return;
-        }
-        
-        if (header && window.getComputedStyle(header).position === 'fixed' &&
-            postContent && window.getComputedStyle(postContent).maxWidth !== 'none') {
+        // If CSS loaded quickly (< 500ms), hide immediately - means it was cached
+        if (elapsed < 500 && header && window.getComputedStyle(header).position === 'fixed') {
           document.getElementById('loading-screen').style.display = 'none';
-        } else {
-          setTimeout(checkCSSLoaded, 100);
+        }
+        // If it's taking longer, wait minimum 2 seconds then check
+        else if (elapsed >= 2000 && header && window.getComputedStyle(header).position === 'fixed') {
+          document.getElementById('loading-screen').style.display = 'none';
+        }
+        // Keep checking
+        else {
+          setTimeout(checkAndHide, 100);
         }
       }
       
-      window.addEventListener('load', function() {
-        checkCSSLoaded();
-      });
+      window.addEventListener('load', checkAndHide);
       
+      // Max 6 seconds
       setTimeout(function() {
         document.getElementById('loading-screen').style.display = 'none';
-      }, 8000);
+      }, 6000);
     </script>
 
     <canvas id="particle-canvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100vh; z-index: -1; pointer-events: none;"></canvas>
