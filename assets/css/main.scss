@@ -56,8 +56,9 @@ img[src*="favicon"] {
   -webkit-filter: none !important;
 }
 
+.post-content h2,
 .post-content h3 {
-  background: black;
+  background: #1a1a1a;
   color: white;
   padding: 1.5rem;
   margin-top: 2rem;
@@ -66,6 +67,8 @@ img[src*="favicon"] {
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
+.post-content h2 + p,
+.post-content h2 + ul,
 .post-content h3 + p,
 .post-content h3 + ul {
   padding-left: 1.5rem;
